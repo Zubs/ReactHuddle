@@ -1,9 +1,16 @@
-import StyledHeader from "./styles/Header.styled";
+import { StyledHeader, Logo, Nav } from "./styles/Header.styled";
+import Container from "./styles/Container.styled";
+import Button from "./styles/Button.styled";
 
 const Header = () => {
 	return (
 		<StyledHeader>
-			<h1>Hubble</h1>
+			<Container>
+				<Nav>
+					<Logo src='./images/logo.svg' />
+					<Button>Try It Free</Button>
+				</Nav>
+			</Container>
 		</StyledHeader>
 	);
 };
