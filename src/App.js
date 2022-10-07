@@ -4,6 +4,7 @@ import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./components/styles/Globals";
 import content from "./content";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 const theme = {
   colors: {
@@ -26,6 +27,7 @@ function App() {
           ))
         }
       </Container>
+      <Footer />
     </ThemeProvider>
   );
 }
