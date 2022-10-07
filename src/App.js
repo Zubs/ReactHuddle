@@ -8,7 +8,8 @@ const theme = {
     header: '#ebfbff',
     body: 'white',
     footer: '#003333'
-  }
+  },
+  mobile: '768px'
 };
 
 function App() {
